@@ -9,6 +9,7 @@ function Stack ( ) {
     return items.pop();
   }
 
+
   this.peek = () => {
     return items[items.length - 1];
   }
